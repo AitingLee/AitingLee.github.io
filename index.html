@@ -1,265 +1,48 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+---
+layout: default
+title: Home
+---
 
-<head>
-	<meta name="generator" content="Hugo 0.115.4"><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href="/static/fav.png" type="image/png">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
->
-<link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      media="print" onload="this.media='all'" />
-<noscript>
-  <link
-          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
-</noscript>
-
-
-<link rel="stylesheet" href="/css/font.css" media="all">
-
-
-
-<meta property="og:title" content="Aiting | Software Engineer" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://aitinglee.github.io/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Aiting | Software Engineer"/>
-<meta name="twitter:description" content=""/>
-
-
-<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
-<link rel="stylesheet" href="/css/footer.css" media="all">
-
-
-<link rel="stylesheet" href="/css/theme.css" media="all">
-
-
-
-
-<style>
-    :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
-        --background-color: #eaedf0;
-        --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
-        --secondary-color: #f8f9fa;
-
-         
-        --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --background-color-dark: #18191a;
-        --secondary-background-color-dark: #212529;
-        --primary-color-dark: #ffffff;
-        --secondary-color-dark: #212529;
-    }
-    body {
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
-    }
-
-    html {
-        background-color: var(--background-color) !important;
-    }
-
-    body::-webkit-scrollbar {
-        width: .5em;
-        height: .5em;
-        background-color: var(--background-color);
-    }
-    
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px var(--background-color);
-        border-radius: 1rem;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        border-radius: 1rem;
-        background-color: var(--secondary-color);
-        outline: 1px solid var(--background-color);
-    }
-
-    #search-content::-webkit-scrollbar {
-        width: .5em;
-        height: .1em;
-        background-color: var(--background-color);
-    }
-</style>
-
-<meta name="description" content=ZgotmplZ>
-<link rel="stylesheet" href="/css/index.css" media="all">
-<link rel="stylesheet" href="/css/projects.css" media="all">
-
-
-<script defer src="/fontawesome-5/all-5.15.4.js"></script>
-
-  <title>
-Aiting | Software Engineer
-
-  </title>
-</head>
-
-<body class="light">
-  
-  
-<script>
-    let localStorageValue = localStorage.getItem("pref-theme");
-    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    switch (localStorageValue) {
-        case "dark":
-            document.body.classList.add('dark');
-            break;
-        case "light":
-            document.body.classList.remove('dark');
-            break;
-        default:
-            if (mediaQuery) {
-                document.body.classList.add('dark');
-            }
-            break;
-    }
-</script>
-
-
-
-<header>
-    <nav class="pt-3 navbar navbar-expand-lg animate">
-        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
-            
-            <a class="navbar-brand primary-font text-wrap" href="/">
-                
-                
-                Aiting Profile
-                
-            </a>
-
-            
-
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
-                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
-                </svg>
-            </button>
-
-            
-            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
-                <ul class="navbar-nav ms-auto text-center">
-                    
-
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#experience"
-                            aria-label="experience">
-                            Experience
-                        </a>
-                    </li>
-                    
-
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#projects"
-                            aria-label="projects">
-                            Projects
-                        </a>
-                    </li>
-                    
-
-                    
-
-                    
-
-                    
-                    
-
-                    
-
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-</header>
-<div id="content">
 <section id="hero" class="py-5 align-middle">
     <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
-                        <img src="/static/avatar.png" width="300" height="300">
+                        <img src="/static/avatar.png" width="300" height="300" alt="Aiting Lee" style="border-radius: 50%; object-fit: cover;">
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mt-3">
                     <div class="col-auto h-100">
-                        <a href="https://drive.google.com/file/d/1cmmvs9951t69-s8n_q0-DuK122wUjQ1v/view?usp=sharing" class="btn" download target="_blank" >
-                            Resume
+                        <a href="https://drive.google.com/file/d/1cmmvs9951t69-s8n_q0-DuK122wUjQ1v/view?usp=sharing" class="btn btn-primary" download target="_blank">
+                            Download Resume
                         </a>
                     </div>
-                    <div class="col-auto px-0 h-100"><span>
-                <span class="px-1">
-                    <a href="https://github.com/AitingLee" target="_blank" class="btn social-icon">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </span>
-                <span class="px-1">
-                    <a href="https://www.linkedin.com/in/lee-aiting-795543200" target="_blank" class="btn social-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </span>
-                <span class="px-1">
-                    <a href="https://leetcode.com/michelle723/" target="_blank" class="btn social-icon">
-                        <img src="/static/leetcode.png">
-                    </a>
-                </span>
-                </span></div>
+                    <div class="col-auto px-0 h-100">
+                                <span class="px-1">
+                                    <a href="https://github.com/AitingLee" target="_blank" class="btn social-icon"><i class="fab fa-github"></i></a>
+                                </span>
+                        <span class="px-1">
+                                    <a href="https://www.linkedin.com/in/aiting-lee/" target="_blank" class="btn social-icon"><i class="fab fa-linkedin"></i></a>
+                                </span>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-0 col-md-0 col-lg-1">
-            </div>
+
             <div class="col-sm-12 col-md-12 col-lg-7 content animate" id="primary-font">
-                <span class="subtitle">
-                    Hi, my name is
-                </span>
-                <h2>
-                    Aiting Lee
-                </h2>
-                <h3>
-                    Software Engineer
-                </h3>
-                <div class="hero-content">
+                <span class="subtitle">Hi, my name is</span>
+                <h2>Aiting Lee</h2>
+                <h3>MSc Student in Software Design</h3>
+
+                <div class="hero-content mt-4">
                     <ul>
-                        <li><b>Applications :</b> WPF | C# | .NET Framework</li>
-                        <li><b>Games :</b> Unity | C# | Multi-Platform | AR | VR </li>
-                        <li><b>Web :</b> React | TypeScript | Cloudflare | WebGL</li>
+                        <li><b>Languages:</b> C# | TypeScript | Java | SQL</li>
+                        <li><b>Core:</b> React | Unity 3D | .NET | Cloudflare</li>
+                        <li><b>Focus:</b> IoT | Digital Transformation | User-Centric Design</li>
                     </ul>
-                    <h5>
-                        About me
-                    </h5>
-                    <p> I have 3 years of experience in developing websites and multi-platform applications, including Windows, Mac, WebGL, and VR/AR.</p>
-                    <p> Currently, I am working as a freelancer while pursuing my MSc in IT at the University of Copenhagen.</p>
-                </div>
-            </div>
+                    <h5 class="mt-4">About me</h5>
+                    <p>Software Engineer with 3 years of full-stack experience combining technical expertise in C#, React, and Unity with a strong background in design.</p>
+                    <p>Currently pursuing an <b>MSc in Software Design at the IT University of Copenhagen</b> (GPA: 11.25/12), while working as a Product Specialist at DreamData.</p>
                 </div>
             </div>
         </div>
@@ -273,143 +56,85 @@ Aiting | Software Engineer
             <div class="col-sm-12 col-md-8 col-lg-8 py-5">
                 <div class="experience-container px-3 pt-2">
                     <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
-
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div
-                                class="nav-link active bg-transparent"
-                                aria-selected="true"
-                                role="tab"
-                                data-bs-toggle="pill"
-                                id='Freelancer-Aug-2024---present-tab'
-                                data-bs-target='#pills-Freelancer-Aug-2024---present'
-                                aria-controls='Freelancer-Aug-2024---present'
-                            >
-                                Freelancer
-                            </div>
+                        <li class="nav-item px-1" role="presentation">
+                            <button class="nav-link active bg-transparent" id="dreamdata-tab" data-bs-toggle="pill" data-bs-target="#dreamdata" type="button" role="tab">DreamData</button>
                         </li>
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent"
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='ViewSonic-Jul-2022---Jul-2024-tab'
-                                data-bs-target='#pills-ViewSonic-Jul-2022---Jul-2024'
-                                aria-controls='ViewSonic-Jul-2022---Jul-2024'
-                            >
-                                ViewSonic
-                            </div>
+                        <li class="nav-item px-1" role="presentation">
+                            <button class="nav-link bg-transparent" id="culture-tab" data-bs-toggle="pill" data-bs-target="#culture" type="button" role="tab">Culture Consultant</button>
                         </li>
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Arplanet-Nov-2021---Jun-2022-tab'
-                                data-bs-target='#pills-Arplanet-Nov-2021---Jun-2022' 
-                                aria-controls='Arplanet-Nov-2021---Jun-2022'
-                            >
-                                Arplanet
-                            </div>
+                        <li class="nav-item px-1" role="presentation">
+                            <button class="nav-link bg-transparent" id="viewsonic-tab" data-bs-toggle="pill" data-bs-target="#viewsonic" type="button" role="tab">ViewSonic</button>
+                        </li>
+                        <li class="nav-item px-1" role="presentation">
+                            <button class="nav-link bg-transparent" id="arplanet-tab" data-bs-toggle="pill" data-bs-target="#arplanet" type="button" role="tab">Arplanet</button>
                         </li>
                     </ul>
+
                     <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
-                        <div
-                            class="tab-pane fade show active bg-transparent"
-                            role="tabpanel"
-                            id='pills-Freelancer-Aug-2024---present'
-                            aria-labelledby='pills-Freelancer-Aug-2024---present-tab'
-                        >
+
+                        <div class="tab-pane fade show active" id="dreamdata" role="tabpanel">
                             <div>
-                                <span class="h4">Freelancer</span>
-                                <div class="pb-1">
-                                    <small>Aug 2024 - Present</small>
-                                </div>
+                                <span class="h4">Product Specialist (Student Job)</span>
+                                <div class="pb-1"><small>Sep 2025 - Present | Copenhagen</small></div>
                             </div>
                             <div class="pt-2">
-                                <p>I am currently working on part-time projects that involve building websites, utilizing modern web technologies and frameworks to create responsive, user-friendly designs. These projects allow me to apply my skills in frontend and backend development, focusing on delivering high-quality solutions tailored to client needs.</p>
-                                <p>What I did In this position:</p>
+                                <p>Acting as a technical liaison at <a href="https://dreamdata.io/" target="_blank">DreamData</a>.</p>
                                 <ul>
-                                    <li><a href="https://www.dnabrush.net/" target="_blank">DNA Brush (Click to see Website)</a></li>
-                                    <li>Cosmos Vibe (In progress)</li>
+                                    <li>Utilize data warehouse insights (BigQuery) to diagnose potential faulty results.</li>
+                                    <li>Employ inspection tools to diagnose complex behaviors in the web app.</li>
+                                    <li>Collaborate with the engineering team to resolve user-reported issues.</li>
                                 </ul>
                             </div>
                         </div>
-                        <div 
-                            class="tab-pane fade bg-transparent"
-                            role="tabpanel"
-                            id='pills-ViewSonic-Jul-2022---Jul-2024'
-                            aria-labelledby='pills-ViewSonic-Jul-2022---Jul-2024-tab'
-                        >
-                            <div>
-                                <span class="h4">Engineer II</span>
-                                <small>-</small>
-                                <a href="https://www.viewsonic.com/tw/" target="_blank">ViewSonic</a>
-                                <div class="pb-1">
-                                    <small>Jul 2022 - Jul 2024</small>
-                                    
-                                </div>
-                                <div class="py-2 featuredLink">
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href=https://universe.viewsonic.io/ target="_blank">
-                                        UNIVERSE 
-                                    </a>
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href=https://www.classswift.viewsonic.io/ target="_blank">
-                                        ClassSwift
-                                    </a>
-                                </div>
-                            </div>
-                            <p>I am working as an Unity and WPF engineer at <a href="https://www.viewsonic.com/tw/">ViewSonic</a> in New Taipei City, Taiwan. I worked on project <a href="https://universe.viewsonic.io/">UNIVERSER</a>, which is a virtual campus that provide an amazing solution for online teaching; and <a href="https://www.classswift.viewsonic.io/">ClassSwift</a>, which is an app create the quickest and most engaging way to interact between teacher with their class.</p>
-                            <p>What I did In this position:</p>
-                            <ul>
-                            <li>Lead for Mac platform development.</li>
-                            <li>Lead for VR platform development.</li>
-                            <li>Implement UI and functions with Unity.</li>
-                            <li>Developed a brand new windows application with WPF.</li>
-                            <li>Maintain and refactor existing code.</li>
-                            <li>Cooperate with UI/UX designers, art designers, project managers and QA team.</li>
-                            </ul>
-                        </div>
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Arplanet-Nov-2021---Jun-2022'
-                            aria-labelledby='pills-Arplanet-Nov-2021---Jun-2022-tab'
-                        >
-                            <div>
-                                <span class="h4">Unity Engineer</span>
-                                <small>-</small>
-                                <a href="https://www.arplanet.com.tw/" target="_blank">Arplanet</a>
-                                
-                                <div class="pb-1">
-                                    <small>Nov 2021 - Jun 2022</small>
-                                    
-                                </div>
-                                
-                                
-                                <div class="py-2 featuredLink">
-                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href=https://www.arplanet.com.tw/marqplus/ target="_blank">
-                                        marq&#43; 
-                                    </a>
-                                </div>
-                                
-                            </div>
 
+                        <div class="tab-pane fade" id="culture" role="tabpanel">
+                            <div>
+                                <span class="h4">Fullstack Web Developer</span>
+                                <div class="pb-1"><small>Dec 2024 - Sep 2025 | Copenhagen</small></div>
+                            </div>
                             <div class="pt-2">
-                                <p>I have worked as an Unity engineer at <a href="https://www.arplanet.com.tw/">Arplanet</a> for 7 months. I worked on an AR product <a href="https://www.arplanet.com.tw/marqplus/">marq+</a> and a VR projects.</p>
-<p>What I did In this position:</p>
-<ul>
-<li>Develope a VR staff traning app for a technology factory.</li>
-<li>Maintain and implement new function for an AR product.</li>
-<li>Implement UI and functions with Unity.</li>
-<li>Create Instagram filter with Spark AR.</li>
-</ul>
-
+                                <p>Independent development of a full-stack platform featuring AI integration.</p>
+                                <ul>
+                                    <li>Launched a fully functional website from scratch using TypeScript, React, and Next.js.</li>
+                                    <li>Engineered GenAI prompts to train an LLM chatbot.</li>
+                                    <li>Built and hosted a PostgreSQL database on Supabase.</li>
+                                </ul>
                             </div>
                         </div>
-                        
-                        
+
+                        <div class="tab-pane fade" id="viewsonic" role="tabpanel">
+                            <div>
+                                <span class="h4">Mid-Level Engineer</span>
+                                <small> - <a href="https://www.viewsonic.com/tw/" target="_blank">ViewSonic</a></small>
+                                <div class="pb-1"><small>Jul 2022 - Jul 2024 | Taipei</small></div>
+                                <div class="py-2 featuredLink">
+                                    <a class="btn btn-outline-primary btn-sm" href="https://universe.viewsonic.io/" target="_blank">UNIVERSE</a>
+                                    <a class="btn btn-outline-primary btn-sm" href="https://www.classswift.viewsonic.io/" target="_blank">ClassSwift</a>
+                                </div>
+                            </div>
+                            <div class="pt-2">
+                                <ul>
+                                    <li>Led the VR platform development and Mac platform migration.</li>
+                                    <li>Collaborated within a cross-functional team of 20+ engineers using Git and APIs.</li>
+                                    <li>Served as the technical bridge between UI/UX designers and QA.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="arplanet" role="tabpanel">
+                            <div>
+                                <span class="h4">Unity Developer</span>
+                                <small> - <a href="https://www.arplanet.com.tw/" target="_blank">Arplanet</a></small>
+                                <div class="pb-1"><small>Nov 2021 - Jun 2022 | Taipei</small></div>
+                            </div>
+                            <div class="pt-2">
+                                <ul>
+                                    <li>Developed AR/VR solutions including marq+ and staff training apps.</li>
+                                    <li>Implemented interactive features and Instagram filters using Spark AR.</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -417,179 +142,95 @@ Aiting | Software Engineer
     </div>
 </section>
 
-
-
 <section id="projects" class="py-5">
     <div class="container">
         <h3 class="text-center">Projects</h3>
         <div class="row justify-content-center px-3 px-md-5">
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Cosmos Vibe">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/static/projects/CosmosVibe.png" alt="CosmosVibe">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            <span class="badge badge-secondary">React</span>
-                            <span class="badge badge-secondary">TypeScript</span>
-                            <span class="badge badge-secondary">API</span>
-                            <span class="badge badge-secondary">Unity WebGL</span>
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Cosmos Vibe</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            Cosmos Vibe is a virtual online art exhibition that combines React and Unity. Buyers can browse through all the exhibitions on the website and then explore the 3D exhibition using their avatar.
-                        </div>
-                        </p>
-                        <div>
-                            Key Responsibilities:
-                            <ul>
-                                <li>Developed the front-end of the website using the React framework.</li>
-                                <li>Designed and implemented the back-end data structure and API using Cloudflare Workers with Wrangler and TypeScript.
-                                </li>
-                                <li>Facilitated communication between the 2D website and the 3D world through React Unity WebGL integration.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-footer py-3">
-                        <span class="m-1 mx-2">
-                            Work in Progress
-                        </span>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="DNA Brush">
+                <div class="card my-3 h-100">
                     <div class="card-head">
                         <img class="card-img-top" src="/static/projects/DNABrush.png" alt="DNA Brush">
                     </div>
                     <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
+                        <div class="pb-2">
                             <span class="badge badge-secondary">React</span>
                             <span class="badge badge-secondary">TypeScript</span>
+                            <span class="badge badge-secondary">Cloudflare</span>
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">DNA Brush</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            DNA Brush is a brand identity website showcasing company information, brand imagery, and a complete product catalog. I oversaw the full development and collaborated closely with the client and designers to meet all requirements.
-                        </div>
-                        </p>
-                        <div>
-                            Key Responsibilities:
-                            <ul>
-                                <li>Developed a responsive website using React and Cloudflare Pages.</li>
-                                <li>Set up a Cloudflare R2 bucket for image storage and access.</li>
-                                <li>Created web components, such as carousels, marquee, and forms.</li>
-                                <li>Implemented internationalization support for the website using i18next.</li>
-                            </ul>
-                        </div>
+                        <h5 class="card-title mt-1">DNA Brush</h5>
+                        <p class="card-text secondary-font">A brand identity website showcasing company information and product catalog.</p>
                     </div>
                     <div class="card-footer py-3">
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://www.dnabrush.net/" target="_blank">
-                                Website
-                            </a>
-                        </span>
+                                <span class="float-end">
+                                    <a class="btn btn-sm" href="https://www.dnabrush.net/" target="_blank">Website</a>
+                                </span>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="ClassSwift">
+                <div class="card my-3 h-100">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/static/projects/CosmosVibe.png" alt="Cosmos Vibe">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2">
+                            <span class="badge badge-secondary">React</span>
+                            <span class="badge badge-secondary">Unity WebGL</span>
+                        </div>
+                        <h5 class="card-title mt-1">Cosmos Vibe</h5>
+                        <p class="card-text secondary-font">Virtual online art exhibition combining React and Unity.</p>
+                    </div>
+                    <div class="card-footer py-3">
+                        <span class="m-1 mx-2">Work in Progress</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100">
                     <div class="card-head">
                         <img class="card-img-top" src="/static/projects/ClassSwift.png" alt="ClassSwift">
                     </div>
                     <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
+                        <div class="pb-2">
                             <span class="badge badge-secondary">WPF</span>
-                            <span class="badge badge-secondary">Windows App</span>
                             <span class="badge badge-secondary">C#</span>
                             <span class="badge badge-secondary">Socket</span>
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">ClassSwift</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            During my time working on the ClassSwift project, I served as a WPF Engineer responsible for developing the Windows application used by teachers to facilitate classroom interaction in a simple and effective way.
-                        </div>
-                        </p>
-                        <div>
-                            Key Responsibilities:
-                            <ul>
-                                <li>Developed multi-threaded real-time GUI using modern .NET technologies.</li>
-                                <li>Managed real-time messaging via sockets.</li>
-                                <li>Planned the software architecture.</li>
-                                <li>Provided guidance to a junior engineer.</li>
-                            </ul>
-                        </div>
+                        <h5 class="card-title mt-1">ClassSwift</h5>
+                        <p class="card-text secondary-font">Developed the Windows application for classroom interaction at ViewSonic.</p>
                     </div>
                     <div class="card-footer py-3">
-                        <span class="m-1 mx-2">
-                            <a href="https://www.classswift.viewsonic.io/" target="_blank">
-                                <i class="fa fa-globe"></i>
-                            </a>
-                        </span>
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://www.youtube.com/watch?v=mHdlK_wEPq4&list=PLDfhD4-dQNN5ARFR2qm-rZDSYBaYoYp92" target="_blank">
-                                Video
-                            </a>
-                        </span>
-
+                                <span class="float-end">
+                                    <a class="btn btn-sm" href="https://www.classswift.viewsonic.io/" target="_blank">Website</a>
+                                </span>
                     </div>
-
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="UNIVERSE by ViewSonic">
+                <div class="card my-3 h-100">
                     <div class="card-head">
-                        <img class="card-img-top" src="/static/projects/UNIVERSE.png" alt="UNIVERSE by ViewSonic">
+                        <img class="card-img-top" src="/static/projects/UNIVERSE.png" alt="UNIVERSE">
                     </div>
                     <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
+                        <div class="pb-2">
                             <span class="badge badge-secondary">Unity</span>
-                            
-                            <span class="badge badge-secondary">Windows</span>
-                            
-                            <span class="badge badge-secondary">Mac</span>
-                            
-                            <span class="badge badge-secondary">VR</span>
-                            
+                            <span class="badge badge-secondary">VR/AR</span>
+                            <span class="badge badge-secondary">Photon</span>
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">UNIVERSE by ViewSonic</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            UNIVERSE by ViewSonic is an immersive virtual world for education, enabling avatar-based classroom interaction. It offers features like screen sharing, video streaming, spatial voice, student management, chat, and course scheduling.
-                        </div>
-                        </p>
-                        <div>
-                            Key Responsibilities:
-                            <ul>
-                                <li>Developed the chat System for the application using Photon and Socket.</li>
-                                <li>Integrated backend data through RESTful APIs.</li>
-                                <li>Implemented Unity UGUI in collaboration with UI/UX designer..</li>
-                                <li>Migrate the existing features to VR and Mac platforms.</li>
-                            </ul>
-                        </div>
+                        <h5 class="card-title mt-1">UNIVERSE by ViewSonic</h5>
+                        <p class="card-text secondary-font">Immersive virtual world for education with spatial voice and chat.</p>
                     </div>
-                    
                     <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://universe.viewsonic.io/" target="_blank">
-                                <i class="fa fa-globe"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://www.youtube.com/watch?v=ybJ6-WxxF98" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
+                                <span class="float-end">
+                                    <a class="btn btn-sm" href="https://universe.viewsonic.io/" target="_blank">Website</a>
+                                </span>
                     </div>
-                    
                 </div>
             </div>
-            
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Linkalive Virtual Space Exhibition">
                     <div class="card-head">
@@ -597,143 +238,28 @@ Aiting | Software Engineer
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
-                            
+
                             <span class="badge badge-secondary">Unity</span>
-                            <span class="badge badge-secondary">C#</span>
                             <span class="badge badge-secondary">WebGL</span>
-                            <span class="badge badge-secondary">Dall-E</span>
                             <span class="badge badge-secondary">Agora</span>
-                            
+
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">Linkalive Virtual Space Exhibition</h5>
+                        <h5 class="card-title bg-transparent mt-1">Linkalive Virtual Space</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            Linkalive is a virtual exhibition space. I joined the team during the middle and final periods for three months until its launch at the RWA annual carnival as the event venue. During that exhibition, dozens of participants entered the Linkalive virtual world. Through avatars, they could interact with game objects, view exhibits, and engage in conversations with others via a multiplayer voice system, which also allowed the host to communicate with all audiences.
+                            Linkalive is a virtual exhibition space. I joined the team during the middle and final periods for three months until its launch at the RWA annual carnival as the event venue.
                         </div>
                     </div>
-                    
+
                     <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://twitter.com/intent/follow?screen_name=LinkAlive2022" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://www.youtube.com/watch?v=bOXf0cYM8I0" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
+                                <span class="float-end">
+                                    <a class="btn btn-sm" href="https://www.youtube.com/watch?v=bOXf0cYM8I0" target="_blank">
+                                        Video
+                                    </a>
+                                </span>
                     </div>
-                    
                 </div>
             </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="VR Memberships Data System">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/static/projects/Turing.png" alt="VR Memberships Data System">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Unity</span>
-                            <span class="badge badge-secondary">C#</span>
-                            <span class="badge badge-secondary">Interaction Toolkit</span>
-                            <span class="badge badge-secondary">VR</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">VR Memberships Data System</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            This is an in-house business project that Demonstrates the prototype of how to integrate the existing memberships data system with VR. The app&#39;s main functions are to authenticate and login by connecting to a Restful API, and to provide VR interactive content.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://youtube.com/shorts/0kpXXCD9vZo?feature=share" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="VR Staff Training">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/static/projects/Dismantle.png" alt="VR Staff Training">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Unity</span>
-                            <span class="badge badge-secondary">C#</span>
-                            <span class="badge badge-secondary">Interaction Toolkit</span>
-                            <span class="badge badge-secondary">VR</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">VR Staff Training</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            This is a business staff training app. The video only shows the prototype due to the NDA. It demonstrates a series of processes for dismantling specific machines. There are two modes&#39;:&#39; training mode with hints and test mode without hints. Trainers can assess their ability to recall all the steps by choosing different modes.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://youtu.be/Z9YyN7sAcGM" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Doll Workshop Disturbance">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/static/projects/Doll.png" alt="Doll Workshop Disturbance">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                            <span class="badge badge-secondary">Unity</span>
-                            <span class="badge badge-secondary">C#</span>
-                            <span class="badge badge-secondary">Photon</span>
-                            <span class="badge badge-secondary">Interaction Toolkit</span>
-                            <span class="badge badge-secondary">VR</span>
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Doll Workshop Disturbance</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            This is an independent project that I started with an art designer. The purpose of this project is to experiment with some innovative VR interactions. We designed a mechanism that allows the player to have two different control modes. When they are in the spirit form, they have to wave their hand as if it were the spirit&#39;s wing to move forward. If they possess the doll, they will be affected by gravity and have to use their controller to climb on objects
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://youtu.be/-dDZHYY1FPc" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
+
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="The Little Witch Fana">
                     <div class="card-head">
@@ -741,154 +267,30 @@ Aiting | Software Engineer
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
-                            
                             <span class="badge badge-secondary">Unity</span>
-                            <span class="badge badge-secondary">C#</span>
                             <span class="badge badge-secondary">RPG Game</span>
-                            <span class="badge badge-secondary">Shader</span>
                             <span class="badge badge-secondary">VFX</span>
-                            
                         </div>
                         <h5 class="card-title bg-transparent mt-1">The Little Witch Fana</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            The Little Witch Fana is my final project for the course at the Institute for Information Industry, and it is also my first complete Unity project. In this team, I served as the team leader and was responsible for over 90% of the content in this project. The experience gained from working on this project allowed me to grow rapidly during the early stages of learning Unity. I aimed to achieve as many desired features as possible within the limited time, which consequently developed my ability to work independently, identify problems, and find solutions.
+                            My first complete Unity project. Served as team leader and responsible for over 90% of the content.
                         </div>
                     </div>
-                    
                     <div class="card-footer py-3">
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/AitingLee/Little-Witch-FANA" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </span>
-                        
-                        <span class="m-1 mx-2">
-                            <a href="https://prezi.com/view/0HNBycm7g80qEcXqE4r3/" target="_blank">
-                                <i class="fa fa-file-powerpoint"></i>
-                            </a>
-                        </span>
-                        
-                        
+                                <span class="m-1 mx-2">
+                                    <a href="https://github.com/AitingLee/Little-Witch-FANA" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </span>
                         <span class="float-end">
-                            <a class="btn btn-sm" href="https://www.youtube.com/watch?v=yuNJxGm6r6w&amp;feature=youtu.be" target="_blank">
-                                Video
-                            </a>
-                        </span>
-                        
+                                    <a class="btn btn-sm" href="https://www.youtube.com/watch?v=yuNJxGm6r6w&amp;feature=youtu.be" target="_blank">
+                                        Video
+                                    </a>
+                                </span>
                     </div>
-                    
                 </div>
             </div>
-            
-            
+
         </div>
     </div>
 </section>
-
-
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol id="check-circle-fill" viewBox="0 0 16 16">
-    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-  </symbol>
-  <symbol id="info-fill" viewBox="0 0 16 16">
-    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-  </symbol>
-  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
-    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-  </symbol>
-</svg>
-
-  </div><footer>
-    <div class="container py-3" id="recent-posts">
-    
-</div><div class="text-center pt-2">
-    
-    <span class="px-1">
-        <a href="mailto:michelle723@gmail.com" aria-label="mail">
-            <img alt = "Mail" src="/static/mail.png" width="36" height="28" fill="#fff">
-        </a>
-    </span>
-    
-
-    
-    <span class="px-1">
-        <a href="https://github.com" aria-label="github">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
-                <path fill="#fff"
-                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
-
-                <metadata>
-                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-                        <rdf:Description about="https://iconscout.com/legal#licenses"
-                            dc:title="Github, Online, Project, Hosting, Square"
-                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
-                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
-                            <dc:creator>
-                                <rdf:Bag>
-                                    <rdf:li>Font Awesome</rdf:li>
-                                </rdf:Bag>
-                            </dc:creator>
-                        </rdf:Description>
-                    </rdf:RDF>
-                </metadata>
-            </svg>
-        </a>
-    </span>
-    
-
-    
-    <span class="px-1">
-        <a href="https://linkedin.com" aria-label="linkedin">
-            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
-                viewBox="0 0 512 512">
-                <rect width="512" height="512" fill="#0077b5" rx="15%" />
-                <circle cx="142" cy="138" r="37" />
-                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
-                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
-            </svg>
-        </a>
-    </span>
-    
-
-    
-
-    
-
-    
-</div><div class="container py-4">
-    <div class="row justify-content-center">
-        <div class="col-md-4 text-center d-flex align-items-center justify-content-center">
-            <div class="pb-2">
-                <a href="https://aitinglee.github.io/" title="Aiting | Software Engineer">
-                    <img alt="Footer logo" src="/static/avatar.png"
-                        height="40px" width="40px">
-                </a>
-            </div>
-            <div class="col-md-1"></div>
-            &copy; 2023  All rights reserved
-        </div>
-    </div>
-</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
-<script>
-    if (document.body.className.includes("light")) {
-        document.body.classList.add('dark');
-        localStorage.setItem("pref-theme", 'dark');
-    }
-</script>
-
-
-
-
-
-
-
-
-
-  <section id="search-content" class="py-2">
-    <div class="container" id="search-results"></div>
-  </section>
-</body>
-
-</html>

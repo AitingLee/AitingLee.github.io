@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Aiting Lee | Software Engineer</title>
+    <meta name="description" content="Portfolio of Aiting Lee, a Software Engineer and MSc Student at ITU Copenhagen.">
+
+    <link rel="icon" href="/static/fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/font.css" media="all">
+    <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="/css/header.css" media="all">
+    <link rel="stylesheet" href="/css/footer.css" media="all">
+    <link rel="stylesheet" href="/css/theme.css" media="all">
+    <link rel="stylesheet" href="/css/index.css" media="all">
+    <link rel="stylesheet" href="/css/projects.css" media="all">
+
+    <style>
+        :root {
+            --text-color: #343a40;
+            --text-secondary-color: #6c757d;
+            --background-color: #eaedf0;
+            --secondary-background-color: #64ffda1a;
+            --primary-color: #007bff;
+            --secondary-color: #f8f9fa;
+
+            /* Dark Mode Variables */
+            --text-color-dark: #e4e6eb;
+            --text-secondary-color-dark: #b0b3b8;
+            --background-color-dark: #18191a;
+            --secondary-background-color-dark: #212529;
+            --primary-color-dark: #ffffff;
+            --secondary-color-dark: #212529;
+        }
+        body { font-family: 'Roboto', sans-serif; }
+        html { background-color: var(--background-color) !important; }
+    </style>
+
+    <script defer src="/fontawesome-5/all-5.15.4.js"></script>
+</head>
+
+<body class="light">
+
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (localStorageValue === "dark" || (!localStorageValue && mediaQuery)) {
+        document.body.classList.add('dark');
+    } else {
+        document.body.classList.remove('dark');
+    }
+</script>
+
+<header>
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                Aiting Profile
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+    <div class="text-center pt-2">
+            <span class="px-1">
+                <a href="mailto:aile@itu.dk" aria-label="mail">
+                    <img alt="Mail" src="/static/mail.png" width="36" height="28">
+                </a>
+            </span>
+        <span class="px-1">
+                <a href="https://github.com/AitingLee" target="_blank" aria-label="github" style="color: white; font-size: 2.2rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+        <span class="px-1">
+                <a href="https://www.linkedin.com/in/aiting-lee/" target="_blank" aria-label="linkedin" style="color: white; font-size: 2.2rem;">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+    </div>
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center d-flex align-items-center justify-content-center">
+                <div class="pb-2">
+                    <a href="/">
+                        <img alt="Footer logo" src="/static/avatar.png" height="40px" width="40px" style="border-radius:50%">
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <span style="color: #fff;">&copy; 2025 Aiting Lee. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    if (document.body.className.includes("light")) {
+        if(localStorage.getItem("pref-theme") === 'dark'){
+            document.body.classList.add('dark');
+        }
+    }
+</script>
+
+</body>
+</html>

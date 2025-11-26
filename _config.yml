@@ -1,0 +1,6 @@
+title: Aiting Lee
+description: Software Engineer Portfolio
+baseurl: ""
+url: "https://aitinglee.github.io"
+markdown: kramdown
+theme: jekyll-theme-primer
